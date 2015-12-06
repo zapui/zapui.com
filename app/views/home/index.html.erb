@@ -14,7 +14,7 @@
       <!-- Custom CSS -->
       <!-- <link href="css/home.css" rel="stylesheet"> -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <!-- Custom Fonts -->
       <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -32,59 +32,68 @@
   </head>
 
   <body>
-
-  <!---header---->
-    <div class="main"><br>
-    <div class="col-sm-12 mt">
-    <div class="col-sm-5">
-      <div class="logo pull-right">ZAP</div>
-    </div>
-    <div class="col-sm-2">
-      <%= image_tag("logo1.png", size: '150x150')%>
-    </div>
-    <div class="col-sm-5">
-
-      <div class="logo pull-left">.COM</div>
-    </div>
-    </div>
-      <br><br>
-      <div class="clearfix"></div>
-
-      <div id="mytyping"><strong>UI</strong> User interface is everything designed into an information  is to produce a user interface which makes it easy.
-      </div>
-      <br>
-      <div class="col-sm-5"></div>
-        <div class="col-sm-2">
-        <button type="button" class="btn btn-lg btn-block btn-danger">Download</button>
-        </div>
-         <div class="col-sm-5"></div><br>
-         <div class="clearfix"></div>
-        <p>Coursera provides universal access to <br>
-        the world’s best education</p>
-    </div>
-
-    <div class="about">
-      <div class="quotes">
-        <div class="content">
-          <h2>About </h2>
-          <h4>Our grid system is composed of 8 flexible columns with<br>
-              a gutter between columns of 30px. We apply border-box so<br>
-              that the border and padding is included in the width of the<br>
-              Our grid system is composed of 8 flexible columns with<br>
-              a gutter between columns of 30px. We apply border-box so<br>
-              that the border and padding is included in the width of the<br>
-              grid columns.
-          </h4>
+    <div class="main">
+      <div class="col-sm-12">
+        <div class="logo">ZAP
+          <%= image_tag("logo1.png", size: '150x150')%>
         </div>
       </div>
+      
+      <div class="intro-text">
+        We design amazing interfaces & experiences. <br>
+        Strategy & UX/UI design for web & mobile apps.
+        <br><br><br><br>
+      </div>
+    </div>
 
-      <div class="quotes-main">
+    <div class="quotes">
+      <div class="content">
+        <center>
+          <h2>ABOUT</h2>
+          <p>ZAPUI provides full service experience design studio with a passion for creating usable products & platforms.<br>Never shy of experimenting!</p>
+        
+          <i class="fa fa-lightbulb-o fa-4x"></i><br>
+          <b>Strategy</b><br>
+          Our strategy workshops help us align your product with your target market & growth goals.
+          <br>
+          <br>
+            
+          <i class="fa fa-pencil fa-3x"></i><br>
+          <b>UX/UI Design</b><br>
+          We design awesome strategies & user experiences that deliver results.
+          <br>
+          <br>
+
+          <i class="fa fa-line-chart fa-3x"></i><br>
+          <b>Measure & Iterate</b><br>
+          Great products are in constant improvement. We will help you launch, measure & improve your app.
+          <br>
+
+        </center>
+
+      </div>
+    </div>
+
+    <div class="quotes-main">
       <div>.</div>
-      </div>
-
     </div>
+    <br>
+    
 
-  <div class="main-content">
+    <center>
+      <h2>CONTACT</h2><br>
+      <p>Looking for an innovative solution?</p>
+      <p>Let's build something great.</p>
+      <p>If you're ready to create a delightful solution to a difficult problem, let's collaborate!</p>
+      <p>Email: support@zapui.com</p>
+      <p>Phone: +91 7093 707 707</p>
+    </center>
+<br>
+<br>
+
+    <!-- </div> -->
+
+<!--   <div class="main-content">
     <div class="content">
       <h2>Inside Design prodect</h2>
       <div class="btn-group" role="group" aria-label="...">
@@ -167,9 +176,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="portifilo">
+<!--   <div class="portifilo">
     <h2>OUR WORK</h2>
     <div class="col-sm-6">
       <%= image_tag("devlopment.jpg", height: '310', width: '550', class: 'pull-right')%>
@@ -188,11 +197,11 @@
     <div class="col-sm-6">
       <%= image_tag("devlopment.jpg", height: '310', width: '550')%>
     </div>
-  </div>
+  </div> -->
 
-<div class="clearfix"></div>
-
-  <div class="footer">
+<!-- <div class="clearfix"></div>
+ -->
+<!--   <div class="footer">
     <div class="quotes-footer">
         <br>
         <br>
@@ -217,33 +226,33 @@
     </div>
     </div>
   </div>
+ -->
+
+    <script type="text/javascript">
+        $("#service1").show();
+        $("#service2").hide();
+        $("#service3").hide();
+
+        $("#effects1").click(function(){
+        $("#service1").show();
+        $("#service2").hide();
+        $("#service3").hide();
+    });
+
+    $("#effects2").click(function(){
+        $("#service1").hide();
+        $("#service2").show();
+        $("#service3").hide();
+    });
+
+    $("#effects3").click(function(){
+        $("#service1").hide();
+        $("#service2").hide();
+        $("#service3").show();
+    });
 
 
-<script type="text/javascript">
-    $("#service1").show();
-    $("#service2").hide();
-    $("#service3").hide();
-
-    $("#effects1").click(function(){
-    $("#service1").show();
-    $("#service2").hide();
-    $("#service3").hide();
-});
-
-$("#effects2").click(function(){
-    $("#service1").hide();
-    $("#service2").show();
-    $("#service3").hide();
-});
-
-$("#effects3").click(function(){
-    $("#service1").hide();
-    $("#service2").hide();
-    $("#service3").show();
-});
-
-
-</script>
+    </script>
 
   </body>
 </html>
