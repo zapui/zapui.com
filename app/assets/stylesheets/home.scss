@@ -1,3 +1,92 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    width: 100%;
+    height: 100%;
+  }
+
+.main{
+  background-color: #d3d7dc;
+  // background-color: #fff;
+  text-align: center;
+  height: 100%;
+}
+.logo{
+  color: #ff8578;
+  font-size: 7em;
+  font-weight: 600;
+}
+.mt{
+  margin-top: 7em;
+}
+
+.mt2{
+  margin-top: 2em;
+}
+
+h4{
+  font-size: 25px;
+  color: grey;
+  font-family: "Merriweather",serif;
+}
+.btn{
+  padding: 10px;
+  margin-top: 3%;
+}
+
+p{
+  margin-top: 2%;
+  font-size: 20px;
+  color: grey;
+
+}
+
+.quotes{
+  height: 500px;
+  background-color: #ff8578;
+  background-image: asset-url("quotes_bg.jpg");
+  background-repeat: repeat-x;
+}
+
+.quotes-main{
+  background-image: asset-url("main_bg.jpg");
+  background-repeat: repeat-x;
+}
+
+.content{
+  text-align: center;
+  padding: 4%;
+}
+.content h4{
+  padding: 2%;
+  color: #efefef;
+  font-size: 21px;
+}
+
+.main-content{
+  height: 50em;
+}
+
+.btn-group{
+  padding: 2em;
+
+}
+.banner{
+  margin-top: 1.8em;
+}
+.quotes-footer{
+  height: 13em;
+  background-color: #7f828e;
+  background-image: asset-url("footer_bg.jpg");
+  background-repeat: repeat-x;
+}
+
+.copy{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  padding: 2em;
+}

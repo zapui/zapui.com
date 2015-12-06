@@ -1,145 +1,249 @@
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <%= image_tag('zapui.com-slide1', size: '1000x400') %>
+<!DOCTYPE>
+<html>
+  <head>
+  <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
 
-      <div class="container">
-        <div class="carousel-caption text-left">
-          <h1>Example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+      <title>Zapui design</title>
+      <!-- Bootstrap Core CSS -->
+      <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+      <!-- Custom CSS -->
+      <!-- <link href="css/home.css" rel="stylesheet"> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+      <!-- Custom Fonts -->
+      <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+
+  <!---header---->
+    <div class="main"><br>
+    <div class="col-sm-12 mt">
+    <div class="col-sm-5">
+      <div class="logo pull-right">ZAP</div>
+    </div>
+    <div class="col-sm-2">
+      <%= image_tag("logo1.png", size: '150x150')%>
+    </div>
+    <div class="col-sm-5">
+
+      <div class="logo pull-left">.COM</div>
+    </div>
+    </div>
+      <br><br>
+      <div class="clearfix"></div>
+
+      <div id="mytyping"><strong>UI</strong> User interface is everything designed into an information  is to produce a user interface which makes it easy.
+      </div>
+      <br>
+      <div class="col-sm-5"></div>
+        <div class="col-sm-2">
+        <button type="button" class="btn btn-lg btn-block btn-danger">Download</button>
+        </div>
+         <div class="col-sm-5"></div><br>
+         <div class="clearfix"></div>
+        <p>Coursera provides universal access to <br>
+        the world’s best education</p>
+    </div>
+
+    <div class="about">
+      <div class="quotes">
+        <div class="content">
+          <h2>About </h2>
+          <h4>Our grid system is composed of 8 flexible columns with<br>
+              a gutter between columns of 30px. We apply border-box so<br>
+              that the border and padding is included in the width of the<br>
+              Our grid system is composed of 8 flexible columns with<br>
+              a gutter between columns of 30px. We apply border-box so<br>
+              that the border and padding is included in the width of the<br>
+              grid columns.
+          </h4>
+        </div>
+      </div>
+
+      <div class="quotes-main">
+      <div>.</div>
+      </div>
+
+    </div>
+
+  <div class="main-content">
+    <div class="content">
+      <h2>Inside Design prodect</h2>
+      <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default" id="effects1">DESIGN</button>
+        <button type="button" class="btn btn-default" id="effects2" >RESEARCH</button>
+        <button type="button" class="btn btn-default" id="effects3" >DEVLOPMENT</button>
+      </div>
+    </div>
+
+    <div id="service1" class="col-md-12">
+      <div class="col-md-6">
+        <div class="banner">
+          <%= image_tag("bg1.jpg", height: '310', width: '550', class: 'pull-right')%>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="images">
+          <div id="design" style="display: block;">
+            <div class="col span1of3 align-right middle">
+              <span class="ptb1">
+                <h3>DESIGN FOR ZEPUI</h3>
+                <p>MADHU KANOJIYA</p>
+              </span>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab illo inventore veritatis
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <%= image_tag('zapui.com-slide1', size: '1000x400') %>
-      
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+
+    <div id="service2"  class="col-md-12">
+      <div class="col-md-6">
+        <div class="banner">
+          <%= image_tag("research.jpg", height: '310', width: '550', class: 'pull-right')%>
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="images">
+          <div id="design" style="display: block;">
+            <div class="col span1of3 align-right middle">
+              <span class="ptb1">
+                <h3>RESEARCH</h3>
+                <p>MADHU KANOJIYA</p>
+              </span>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab illo inventore veritatis
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <%= image_tag('zapui.com-slide1', size: '1000x400') %>
-      
-      <div class="container">
-        <div class="carousel-caption text-right">
-          <h1>One more for good measure.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+
+    <div id="service3"  class="col-md-12">
+      <div class="col-md-6">
+        <div class="banner">
+          <%= image_tag("devlopment.jpg", height: '310', width: '550', class: 'pull-right')%>
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="images">
+          <div id="design" style="display: block;">
+            <div class="col span1of3 align-right middle">
+              <span class="ptb1">
+                <h3>DEVLOPMENT </h3>
+                <p>MADHU KANOJIYA</p>
+              </span>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+              totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div><!-- /.carousel -->
 
-
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-
-<div class="container marketing">
-
-  <!-- Three columns of text below the carousel -->
-  <div class="row">
-    <div class="col-lg-4">
-      <%= image_tag('zapui.com-slide1', size: '140x140', class: "img-circle") %>
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-
-    <div class="col-lg-4">
-      <%= image_tag('zapui.com-slide2', size: '140x140', class: "img-circle") %>
-
-      <h2>Heading</h2>
-      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-
-    <div class="col-lg-4">
-      <%= image_tag('zapui.com-slide3', size: '140x140', class: "img-circle") %>
-
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-  </div><!-- /.row -->
-
-
-  <!-- START THE FEATURETTES -->
-
-  <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  <div class="portifilo">
+    <h2>OUR WORK</h2>
+    <div class="col-sm-6">
+      <%= image_tag("devlopment.jpg", height: '310', width: '550', class: 'pull-right')%>
     </div>
 
-    <div class="col-md-5">
-      <%= image_tag('zapui.com-slide3', size: '400x400') %>
+    <div class="col-sm-6">
+      <%= image_tag("devlopment.jpg", height: '310', width: '550')%>
+    </div>
+
+    <div class="col-sm-12 mt2"></div>
+
+    <div class="col-sm-6">
+      <%= image_tag("devlopment.jpg", height: '310', width: '550', class: 'pull-right')%>
+    </div>
+
+    <div class="col-sm-6">
+      <%= image_tag("devlopment.jpg", height: '310', width: '550')%>
     </div>
   </div>
 
-  <hr class="featurette-divider">
+<div class="clearfix"></div>
 
-  <div class="row featurette">
-    <div class="col-md-7 col-md-push-5">
-      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  <div class="footer">
+    <div class="quotes-footer">
+        <br>
+        <br>
+        <br>
+    <div class="copy">
+      <footer class="site-footer">
+          <div class="col-lg-4">
+            <h3>Contect</h3>
+          </div>
+          <div class="col-lg-4">
+            <h3>ABOUT </h3>
+            &copy; All rights reserved!
+          </div>
+          <div class="col-lg-4">
+            <h3>SOCIAL</h3>
+            <span class="fb"><i class="fa fa-facebook "></i></span> Facebook<br>
+            <span class="fb"><i class="fa fa-linkedin "></i></span> Linkedin<br>
+            <span class="fb"><i class="fa fa-twitter "></i></span> Twitter<br>
+            <span class="fb"><i class="fa fa-twitter "></i></span> Google+<br>
+          </div>
+      </footer>
     </div>
-
-    <div class="col-md-5 col-md-pull-7">
-      <%= image_tag('zapui.com-slide3', size: '400x400') %>
     </div>
-
   </div>
 
-  <hr class="featurette-divider">
 
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-    </div>
+<script type="text/javascript">
+    $("#service1").show();
+    $("#service2").hide();
+    $("#service3").hide();
 
-    <div class="col-md-5">
-      <%= image_tag('zapui.com-slide3', size: '400x400') %>
-    </div>
-  </div>
+    $("#effects1").click(function(){
+    $("#service1").show();
+    $("#service2").hide();
+    $("#service3").hide();
+});
 
-  <hr class="featurette-divider">
+$("#effects2").click(function(){
+    $("#service1").hide();
+    $("#service2").show();
+    $("#service3").hide();
+});
 
-  <!-- /END THE FEATURETTES -->
+$("#effects3").click(function(){
+    $("#service1").hide();
+    $("#service2").hide();
+    $("#service3").show();
+});
 
 
-  <!-- FOOTER -->
-  <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; <%= Time.now.year %> ZAPUI Software Pvt. Ltd.
-    <!-- <a href="#">Privacy</a> &middot;  -->
-    <!-- <a href="#">Terms</a></p> -->
-  </footer>
+</script>
 
-</div><!-- /.container -->
+  </body>
+</html>
